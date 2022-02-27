@@ -7,13 +7,18 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@nuxtjs/prismic": "^1.4.0",
+    "@prismicio/slice-simulator-vue": "^0.2.0",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
+    "nuxt-sm": "^0.1.1",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
+    "vue-slicezone": "^0.1.1",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
@@ -24,6 +29,7 @@
     "babel-jest": "^27.4.4",
     "jest": "^27.4.4",
     "postcss": "^8.4.4",
+    "slice-machine-ui": "^0.2.1",
     "vue-jest": "^3.0.4"
   }
 }
