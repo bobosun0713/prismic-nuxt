@@ -14,7 +14,7 @@ export default {
   },
   head() {
     return {
-      title: "Prismic Nuxt.js Multi Page Website",
+      title: "Prismic Nuxt",
     };
   },
   async middleware({ store, $prismic }) {
