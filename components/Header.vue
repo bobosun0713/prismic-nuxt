@@ -6,7 +6,7 @@
     >
       {{ $store.state.menu }}
     </p>
-    <nuxt-link to="/" class="logo">{{
+    <nuxt-link to="首頁" class="logo">{{
       $prismic.asText($store.state.menu.title)
     }}</nuxt-link>
     <nav>

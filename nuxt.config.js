@@ -38,6 +38,7 @@ export default {
       "@nuxtjs/prismic",
       {
         endpoint: smConfig.apiEndpoint || "",
+        linkResolver: "@/plugins/link-resolver",
       },
     ],
     ["nuxt-sm"],
