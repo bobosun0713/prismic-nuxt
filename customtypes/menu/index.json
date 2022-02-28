@@ -1,0 +1,45 @@
+{
+  "id": "menu",
+  "label": "menu",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "config": {
+          "label": "title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      },
+      "menuLinks": {
+        "config": {
+          "label": "menuLinks",
+          "placeholder": "",
+          "fields": {
+            "label": {
+              "config": {
+                "label": "label",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              },
+              "type": "StructuredText"
+            },
+            "link": {
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    }
+  }
+}
